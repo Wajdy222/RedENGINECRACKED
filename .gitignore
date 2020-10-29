@@ -1,0 +1,11 @@
+﻿*.ipch
+*.tmd
+*.suo
+*.user
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+Files/
+[Bb]in/
+[Oo]bj/
+.vs/
