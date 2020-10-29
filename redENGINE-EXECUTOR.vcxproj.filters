@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="aSDK">
+      <UniqueIdentifier>{cd171ada-86f2-4dd6-9316-98484b88c631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\FiveM">
+      <UniqueIdentifier>{a0c68e84-7b12-4473-81f9-9bc15be0b610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Framework">
+      <UniqueIdentifier>{8e4cc5e0-8841-4de4-b8a0-8fe98ca8655b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Framework\Memory">
+      <UniqueIdentifier>{6cd61429-5d56-49dd-80d4-1aad9763df44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Framework\Functions">
+      <UniqueIdentifier>{e55a0a8b-ca58-475e-99e0-74269362d94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Framework\Core">
+      <UniqueIdentifier>{e62d0577-b00c-48b8-b8f0-c80d99f417c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Framework\GUI">
+      <UniqueIdentifier>{51d31620-d283-4452-8379-b9ef48881973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Framework\GUI\SDK">
+      <UniqueIdentifier>{e723a562-b125-487d-9cf7-aba9f140b980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Framework\Auth">
+      <UniqueIdentifier>{f138c8c2-eaa9-4d5c-b912-3390a8af5b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Dependencies">
+      <UniqueIdentifier>{0180f38c-d3c9-46eb-9032-17c89b188e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Dependencies\nlohmann-json">
+      <UniqueIdentifier>{499cc2f1-faaa-4c0d-8b72-b33e0d360f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Dependencies\citizen-resources-core">
+      <UniqueIdentifier>{eae4785a-5546-4def-b060-4b0d21790d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Dependencies\scripting-gta">
+      <UniqueIdentifier>{614a9d70-f8a5-43ad-ba48-7495f639a2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aSDK\Dependencies\vfs-core">
+      <UniqueIdentifier>{6c597202-2709-466e-a0be-91bc5922b141}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="redENGINE-EXECUTOR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FiveM\EventCore.cpp">
+      <Filter>aSDK\FiveM</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>aSDK\Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_core.cpp">
+      <Filter>aSDK\Framework\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\imgui\imgui.cpp">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\imgui\imgui_demo.cpp">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\imgui\imgui_draw.cpp">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\imgui\imgui_impl_dx11.cpp">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\imgui\imgui_impl_win32.cpp">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\imgui\imgui_widgets.cpp">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\kiero\kiero.cpp">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\kiero\minhook\src\buffer.c">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\kiero\minhook\src\hook.c">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\kiero\minhook\src\trampoline.c">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\kiero\minhook\src\hde\hde32.c">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\kiero\minhook\src\hde\hde64.c">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>aSDK\Framework\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\imgui\TextEditor.cpp">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GUI\imgui\ImGuiFileDialog.cpp">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>aSDK\Framework\Auth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\FiveM\ComponentHolder.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\EventCore.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ICoreGameInit.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\IteratorView.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\msgpack.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\msgpack.hpp">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\Registry.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\Resource.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ResourceCache.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ResourceManager.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ResourceMetaDataComponent.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ResourceMounter.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ResourceScriptingComponent.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\StdInc.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\VFSDevice.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\VFSManager.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\VFSStream.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>aSDK\Framework\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>aSDK\Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_core.h">
+      <Filter>aSDK\Framework\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\imconfig.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\imgui.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\imgui_impl_dx11.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\imgui_impl_win32.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\imgui_internal.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\imstb_rectpack.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\imstb_textedit.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\imstb_truetype.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\kiero\kiero.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\kiero\minhook\include\MinHook.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\kiero\minhook\src\buffer.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\kiero\minhook\src\trampoline.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\kiero\minhook\src\hde\hde32.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\kiero\minhook\src\hde\hde64.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\kiero\minhook\src\hde\pstdint.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\kiero\minhook\src\hde\table32.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\kiero\minhook\src\hde\table64.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>aSDK\Framework\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>aSDK\Framework\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\omptr.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\TextEditor.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ProfileManager.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ProfileManagerImpl.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GUI\imgui\ImGuiFileDialog.h">
+      <Filter>aSDK\Framework\GUI\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth.h">
+      <Filter>aSDK\Framework\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Dependencies\nlohmann-json\json.hpp">
+      <Filter>aSDK\Dependencies\nlohmann-json</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ResourceEventComponent.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ScriptEngine.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\ResourceImpl.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\Utils.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="RelativeDevice.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FiveM\VFSZipFile.h">
+      <Filter>aSDK\FiveM</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>aSDK\Framework\Auth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK\Dependencies\citizen-resources-core\citizen-resources-core.def">
+      <Filter>aSDK\Dependencies\citizen-resources-core</Filter>
+    </None>
+    <None Include="SDK\Dependencies\citizen-resources-core\citizen-resources-core.dll">
+      <Filter>aSDK\Dependencies\citizen-resources-core</Filter>
+    </None>
+    <None Include="SDK\Dependencies\citizen-resources-core\citizen-resources-core.exp">
+      <Filter>aSDK\Dependencies\citizen-resources-core</Filter>
+    </None>
+    <None Include="SDK\Dependencies\scripting-gta\scripting-gta.def">
+      <Filter>aSDK\Dependencies\scripting-gta</Filter>
+    </None>
+    <None Include="SDK\Dependencies\scripting-gta\scripting-gta.dll">
+      <Filter>aSDK\Dependencies\scripting-gta</Filter>
+    </None>
+    <None Include="SDK\Dependencies\scripting-gta\scripting-gta.exp">
+      <Filter>aSDK\Dependencies\scripting-gta</Filter>
+    </None>
+    <None Include="SDK\Dependencies\vfs-core\vfs-core.def">
+      <Filter>aSDK\Dependencies\vfs-core</Filter>
+    </None>
+    <None Include="SDK\Dependencies\vfs-core\vfs-core.dll">
+      <Filter>aSDK\Dependencies\vfs-core</Filter>
+    </None>
+    <None Include="SDK\Dependencies\vfs-core\vfs-core.exp">
+      <Filter>aSDK\Dependencies\vfs-core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDK\Dependencies\citizen-resources-core\citizen-resources-core.lib">
+      <Filter>aSDK\Dependencies\citizen-resources-core</Filter>
+    </Library>
+    <Library Include="SDK\Dependencies\scripting-gta\scripting-gta.lib">
+      <Filter>aSDK\Dependencies\scripting-gta</Filter>
+    </Library>
+    <Library Include="SDK\Dependencies\vfs-core\vfs-core.lib">
+      <Filter>aSDK\Dependencies\vfs-core</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{a26d1a57-f13b-4c56-a5d7-b01075ae9b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Framework">
+      <UniqueIdentifier>{479fc56a-2457-4bff-af8f-a09c9aab45ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Framework\Auth">
+      <UniqueIdentifier>{3e0c890d-af57-46c9-aa5c-d24394fa6136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Framework\Memory">
+      <UniqueIdentifier>{e5de9485-36bf-45c6-86b1-170560e23a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Framework\Injection">
+      <UniqueIdentifier>{82b6eb20-0a0c-4ce0-99b6-b8e8fefbf4b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="redENGINE-INJECTOR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>SDK\Framework\Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="MemEx.cpp">
+      <Filter>SDK\Framework\Injection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Auth.h">
+      <Filter>SDK\Framework\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>SDK\Framework\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="injection.h">
+      <Filter>SDK\Framework\Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>SDK\Framework\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="MemEx.h">
+      <Filter>SDK\Framework\Injection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="redENGINE-INJECTOR.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Pictures\redENGINE transpa.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
